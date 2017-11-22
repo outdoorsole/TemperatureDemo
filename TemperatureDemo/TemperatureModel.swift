@@ -12,11 +12,11 @@ class TemperatureModel {
     
     func chooseImage(celsius: Int) -> UIImage {
         if celsius < 0 {
-            imageView.image = UIImage(named: "ice")
+            return UIImage(named: "ice")!
         } else if celsius <= 100 {
-            imageView.image = UIImage(named: "water")
+            return UIImage(named: "water")!
         } else {
-            imageView.image = UIImage(named: "steam")
+            return UIImage(named: "steam")!
         }
     }
     
