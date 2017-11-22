@@ -16,7 +16,9 @@ class TemperatureRange: NSObject, UIPickerViewDataSource {
         super.init()
         
         for i in -50...150 {
-            temps.append(i)
+            if i % 5 == 0 {
+                temps.append(i)                
+            }
         }
     }
     
