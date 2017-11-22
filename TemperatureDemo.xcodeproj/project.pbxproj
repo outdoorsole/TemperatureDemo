@@ -12,6 +12,7 @@
 		1600EB171FC522120030D939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1600EB151FC522120030D939 /* Main.storyboard */; };
 		1600EB191FC522120030D939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1600EB181FC522120030D939 /* Assets.xcassets */; };
 		1600EB1C1FC522120030D939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1600EB1A1FC522120030D939 /* LaunchScreen.storyboard */; };
+		1600EB241FC5230F0030D939 /* TemperatureRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600EB231FC5230F0030D939 /* TemperatureRange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1600EB181FC522120030D939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1600EB1B1FC522120030D939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1600EB1D1FC522120030D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1600EB231FC5230F0030D939 /* TemperatureRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureRange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1600EB111FC522120030D939 /* AppDelegate.swift */,
 				1600EB131FC522120030D939 /* ViewController.swift */,
+				1600EB231FC5230F0030D939 /* TemperatureRange.swift */,
 				1600EB151FC522120030D939 /* Main.storyboard */,
 				1600EB181FC522120030D939 /* Assets.xcassets */,
 				1600EB1A1FC522120030D939 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				1600EB141FC522120030D939 /* ViewController.swift in Sources */,
 				1600EB121FC522120030D939 /* AppDelegate.swift in Sources */,
+				1600EB241FC5230F0030D939 /* TemperatureRange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
