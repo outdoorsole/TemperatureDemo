@@ -9,7 +9,16 @@
 import UIKit
 
 class TemperatureRange: NSObject, UIPickerViewDataSource {
-    var temps = [10, 12, 15, 18, 20, 21, 25, 26, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+//    var temps = [10, 12, 15, 18, 20, 21, 25, 26, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+    var temps = [Int]()
+    
+    override init() {
+        super.init()
+        
+        for i in -50...150 {
+            temps.append(i)
+        }
+    }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
